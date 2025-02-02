@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+VN&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Global CSS Start */
+
+body{
+  font-family: "Poppins", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.cus-btn{
+  font-family: "Roboto", serif;
+  background: #21B573;
+  color: #fff;
+  border-radius: 33px;
+}
+
+.h2{
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+}
+
+.h4{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+/* Header Section CSS Start */
+
+header{
+  width: 100%;
+  background-color: #F0FFF0;
+}
+.navbar-brand img{
+  width: 198.07px;
+}
+
+.nav-item{
+  margin-left: 28px;
+}
+
+.signin{
+  display: block;
+  padding: 6px 28px;
+  text-decoration: none;
+}
+.signin:hover{
+  background: #FFF;
+  color: #21B573;
+  transition: 0.7s;
+}
+
+
+/* Banner Section CSS Start */
+
+.banner-section{
+  width: 100%;
+  background-color: #F0FFF0;
+  padding-bottom: 60px;
+}
+
+.banner-section .sub-title{
+  color: #FD511A;
+  line-height: 24px;
+  padding-top: 90px;
+}
+
+.banner-section h1{
+  width: 67%;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 70px;
+}
+
+.banner-section h1 span{
+  color: #21B573;
+}
+
+.banner-section p{
+  width: 64%;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.btn-part{
+  margin-top: 41px;
+}
+.banner-section a{
+  padding: 12px 36px;
+  text-decoration: none;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  transition: 0.7s;
+}
+.banner-section a:hover{
+  background: #F0FFF0;
+  color: #21B573;
+  transition: 0.7s;
+}
+
+.banner-img {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.banner-img img{
+  width: 554px;
+  justify-items: end;
+}
+
+/* Feature Section CSS Start */
+
+.feature-section{
+  width: 100%;
+  padding: 50px 0;
+}
+.feature-section .f-inner{
+  border-radius: 10px;
+  padding: 40px 0 30px;
+  background: rgba(248, 255, 251, 1);
+}
+.feature-section .f-inner:hover{
+  box-shadow: 0px 20px 40px 0px #0000001a;
+  background-color: #fff;
+  transition: 0.7s;
+}
+.feature-section .f-inner .f-img{
+  margin-bottom: 20px; 
+}
+.f-inner .f-img img{
+  width: 66px;
+  height: 85px;
+}
+.feature-section .f-inner .f-content .t-one{
+  color: rgba(65, 57, 96, 1);
+}
+.feature-section .f-inner .f-content .t-two{
+  color: rgba(88, 88, 89, 1);
+}
